@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+
+
+</head>
+<body>
+
+  
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span> Rahul </span></h2>
+      <p> Student of Information Technology .</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+ 
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="images/images.jpg" alt="Profile Picture">
+      <p>
+       Hii I'm Rahul,currently doing my B.TECH IT(2nd year).I am interested in web development and I'm working towards becoming a full stack developer.I enjoyed learning how websites and application are created, and  I like to improving my coding skills by practicing and building basic projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="images/html.jpg" alt="HTML Logo">
+        <h3>HTML</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/C.jpg" alt="C Language Logo">
+        <h3>C</h3>
+      </div>
+    <div class="skill-card">
+        <img src="images/js.jpg" alt="  JS Language Logo">
+        <h3>JS</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/css.jpg" alt="CSS Language Logo">
+        <h3>CSS</h3>
+      </div>
+      <div class="skill-card">
+        <img src="images/Java.jpg" alt="Java Logo">
+        <h3>Java</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Certificates</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Certificate One</h3>
+        <p>Built a simple website using HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Certificate Two</h3>
+        <p>Developed a responsive portfolio template for developers.</p>
+      </div>
+      <div class="project-card">
+        <h3>Certificate Three</h3>
+        <p>Successfully completed an online course approved by NPTEL.</p>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 RAHUL | All rights reserved.</p>
+  </footer>
+</body>
+</html>
